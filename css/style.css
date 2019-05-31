@@ -1,0 +1,207 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+#main img {
+    
+    margin: auto;
+    width: 80%;
+}
+
+#main h3 {
+    font-size: 2rem;
+    font-weight: 700;
+   
+}
+
+#main h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+#main {
+    position: relative;
+    padding: 7% 15%;
+    
+}
+#main:before {
+    
+    content: "";
+    background-image: url(../images/white-marble.jpg);
+    background-size: cover;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+#mission, #maps{
+    content: "";
+    background-image: url(../images/white-background.png);
+    background-size: cover;
+    position: relative;
+    background-position: center center;
+}
+
+
+
+.main:after {
+    position: relative;
+}
+
+#main div .main-button {
+    margin:  3% 0;
+}
+
+hr.style18 { 
+    height: 30px; 
+    border-style: solid; 
+    border-color: #bb5c0e; 
+    border-width: 1px 0 0 0; 
+    border-radius: 20px; 
+    width: 25%;
+  } 
+  hr.style18:before { 
+    display: block; 
+    content: ""; 
+    height: 30px; 
+    margin-top: -31px; 
+    border-style: solid; 
+    border-color: #bb5c0e; 
+    border-width: 0 0 1px 0; 
+    border-radius: 20px; 
+  }
+  
+nav li {
+    font-family: 'Cinzel', serif;
+}
+
+
+nav a {
+    
+    font-family: 'Cinzel', sans-serif;
+}
+
+.pricing-btn {
+
+}
+
+.buttons {
+    margin-top: 2%;
+}
+
+#footer {
+    background-color: #212529
+}
+
+.footer-container {
+    padding: 3% 10%;
+}
+#mission a {
+    background-color: black;
+    color: #bb5c0e;
+    border: 2px solid white;
+    padding: 50px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#mission a:hover, #mission a:active {
+    background-color: #bb5c0e;
+    color: white;
+}
+a {
+    color: white;
+}
+
+a:hover {
+    color: #bb5c0e;
+}
+
+.btn-warning {
+    color: white;
+    background-color: #bb5c0e !important;
+}
+
+.mikepic {
+    background-image: url(../images/mike.jpg);
+    display: block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+    float: left;
+}
+
+.tylerpic {
+    background-image: url(../images/tyler.jpg);
+    display: block;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: 10%;
+    float: left;
+}
+
+.details {
+    display: block;
+}
+
+.minisite {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    display: inline-block;
+}
+#staff {
+    background-color: #212529;
+    color: white;
+}
+#staff h4 {
+    text-align: center;
+}
+
+#staff p {
+    word-wrap: break-word;
+    padding: 0 7%;
+   
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.logo-container {
+    padding: 5% 15% 0% 15%;
+}
+
+.title {
+    padding-top: 2%;
+}
+
+.service-container {
+    padding-bottom: 7%;
+}
