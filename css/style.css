@@ -7,10 +7,15 @@ footer {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Cinzel', serif;
     text-align: center;
-    
+
 }
 
 p {
@@ -19,7 +24,7 @@ p {
 }
 
 #main img {
-    
+
     margin: auto;
     width: 80%;
 }
@@ -27,21 +32,23 @@ p {
 #main h3 {
     font-size: 2rem;
     font-weight: 700;
-   
+
 }
 
 #main h4 {
     font-size: 1.5rem;
     font-weight: 700;
-    
+
 }
+
 #main {
     position: relative;
     padding: 7% 15%;
-    
+
 }
+
 #main:before {
-    
+
     content: "";
     background-image: url(../images/white-marble.jpg);
     background-size: cover;
@@ -54,7 +61,8 @@ p {
     z-index: -1;
 }
 
-#mission, #maps{
+#mission,
+#maps {
     content: "";
     background-image: url(../images/white-background.png);
     background-size: cover;
@@ -69,41 +77,40 @@ p {
 }
 
 #main div .main-button {
-    margin:  3% 0;
+    margin: 3% 0;
 }
 
-hr.style18 { 
-    height: 30px; 
-    border-style: solid; 
-    border-color: #bb5c0e; 
-    border-width: 1px 0 0 0; 
-    border-radius: 20px; 
+hr.style18 {
+    height: 30px;
+    border-style: solid;
+    border-color: #bb5c0e;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
     width: 25%;
-  } 
-  hr.style18:before { 
-    display: block; 
-    content: ""; 
-    height: 30px; 
-    margin-top: -31px; 
-    border-style: solid; 
-    border-color: #bb5c0e; 
-    border-width: 0 0 1px 0; 
-    border-radius: 20px; 
-  }
-  
+}
+
+hr.style18:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #bb5c0e;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
 nav li {
     font-family: 'Cinzel', serif;
 }
 
 
 nav a {
-    
+
     font-family: 'Cinzel', sans-serif;
 }
 
-.pricing-btn {
 
-}
 
 .buttons {
     margin-top: 2%;
@@ -116,7 +123,8 @@ nav a {
 .footer-container {
     padding: 3% 10%;
 }
-#mission a {
+
+#mission .service-container a {
     background-color: black;
     color: #bb5c0e;
     border: 2px solid white;
@@ -126,10 +134,12 @@ nav a {
     display: inline-block;
 }
 
-#mission a:hover, #mission a:active {
+#mission .service-container a:hover,
+#mission .service-container a:active {
     background-color: #bb5c0e;
     color: white;
 }
+
 a {
     color: white;
 }
@@ -149,10 +159,11 @@ a:hover {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     margin-left: 10%;
-    float: left;
+    padding: 17%;
+
 }
 
 .tylerpic {
@@ -161,34 +172,24 @@ a:hover {
     background-size: cover;
     background-position: center;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     margin-left: 10%;
-    float: left;
+    padding: 17%;
+
 }
 
-.details {
-    display: block;
-}
 
-.minisite {
-    page-break-inside: avoid;
-    break-inside: avoid;
-    display: inline-block;
-}
 #staff {
     background-color: #212529;
     color: white;
 }
+
 #staff h4 {
     text-align: center;
 }
 
-#staff p {
-    word-wrap: break-word;
-    padding: 0 7%;
-   
-}
+
 
 .container-fluid {
     padding: 7% 15%;
@@ -205,3 +206,45 @@ a:hover {
 .service-container {
     padding-bottom: 7%;
 }
+
+.description {
+    word-wrap: break-word;
+    
+}
+
+
+.book-buttons {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#footer {
+    font-family: 'Lato', sans-serif !important;
+    color: white;
+}
+
+#footer h2 {
+    font-family: 'Lato', sans-serif !important;
+    font-size: 1.2rem;
+}
+
+#footer .p-right {
+    padding-right: 10%;
+}
+
+.m-container {
+    padding: 5%;
+}
+
+.t-container {
+    padding: 5%;
+}
+
+.feature-box {
+    padding: 2%;
+}
+
+.padding {
+    padding-top: 5%;
+}
+
