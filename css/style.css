@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
     font-family: 'Lato', sans-serif;
     text-align: center;
@@ -13,9 +15,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Cinzel', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-
+    text-transform: uppercase;
 }
 
 p {
@@ -110,6 +112,15 @@ nav a {
     font-family: 'Cinzel', sans-serif;
 }
 
+.btn.btn-light {
+    color: #bb5c0e !important;
+}
+.btn.btn-dark {
+    background-color: #bb5c0e !important;
+    border-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
 .content-text {
     padding-top: 7%;
     text-align: justify;
@@ -124,8 +135,15 @@ nav a {
 }
 
 .feature-header {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
+
+.shadow {
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+    -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+    box-shadow:         3px 3px 5px 6px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+  }
+
 #footer {
     background-color: #212529
 }
