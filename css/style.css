@@ -82,6 +82,32 @@ p {
     margin: 3% 0;
 }
 
+.detail-bg {
+    content: "";
+    padding: 150px;
+    
+    background-image: url(../images/carwash.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.blkcar-bg {
+    content: "";
+    padding: 150px;
+    
+    background-image: url(../images/blk-car.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ceramic-bg {
+    content: "";
+    padding: 150px;
+    background-image: url(../images/ceramic-bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
 hr.style18 {
     height: 30px;
     border-style: solid;
@@ -115,6 +141,10 @@ nav a {
     font-family: 'Cinzel', sans-serif;
 }
 
+nav a:hover{
+    color: hsl(27, 100%, 63%) !important;
+}
+
 .btn.btn-light {
     color: #bb5c0e !important;
 }
@@ -125,7 +155,7 @@ nav a {
     text-transform: uppercase;
 }
 .content-text {
-    padding-top: 7%;
+    
     text-align: justify;
     line-height: 1.8rem;
 }
