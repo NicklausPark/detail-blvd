@@ -110,12 +110,22 @@ nav a {
     font-family: 'Cinzel', sans-serif;
 }
 
+.content-text {
+    padding-top: 7%;
+    text-align: justify;
+    line-height: 1.8rem;
+}
 
-
+.heading-text {
+    text-align: left;
+}
 .buttons {
     margin-top: 2%;
 }
 
+.feature-header {
+    font-size: 1.4rem;
+}
 #footer {
     background-color: #212529
 }
@@ -213,10 +223,7 @@ a:hover {
 }
 
 
-.book-buttons {
-    display: flex;
-    flex-direction: row-reverse;
-}
+
 
 #footer {
     font-family: 'Lato', sans-serif !important;
@@ -229,7 +236,9 @@ a:hover {
 }
 
 #footer .p-right {
-    padding-right: 10%;
+    padding-right: 10% !important;
+    flex-grow:1;
+    min-height: 0;
 }
 
 .m-container {
