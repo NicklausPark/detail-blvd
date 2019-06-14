@@ -106,6 +106,9 @@ nav li {
     font-family: 'Cinzel', serif;
 }
 
+.nav-link {
+    color: white !important;
+}
 
 nav a {
 
