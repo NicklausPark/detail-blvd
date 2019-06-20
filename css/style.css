@@ -309,7 +309,7 @@ a:hover {
 }
 
 .svg {
-    background: radial-gradient(ellipse at center, #ff9100 0%, black 100%);
+    background: radial-gradient(ellipse at center, #fffefc 0%, rgb(136, 136, 136) 100%);
     overflow: hidden;
   }
 
