@@ -187,7 +187,11 @@ a {
     text-transform: uppercase;
 }
 .align-left {
-    text-align: left;
+    text-align: left !important;
+}
+
+.align-center {
+    text-align: center !important;
 }
 
 .modal-link {
@@ -319,15 +323,7 @@ a:hover {
 .tint-btn {
     
 }
-.tint-text.column p {
-    line-break: ;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-75%);
-}
+
 .column p {
     font-size: 1.2rem;
     line-height: 2rem;
@@ -413,27 +409,22 @@ a:hover {
     padding-top: 5%;
 }
 
-#bg.tint-animation.svg {
-    background: radial-gradient(ellipse at center, #0e0e0e 0%, rgb(250, 151, 22) 100%);
-    overflow: hidden;
-}
+
 
 .svg {
-    background: radial-gradient(ellipse at center, #fffefc 0%, rgb(136, 136, 136) 100%);
+    background-color: radial-gradient(ellipse at center, #fffefc 0%, rgb(136, 136, 136) 100%);
     overflow: hidden;
   }
 
   #bg {
+
       position: absolute;
-      display: inline-block;
+      display: block;
       top: 0;
       bottom: 0;
       left: 0;
       z-index: -1;
-    
+   ;
   }
 
-  .detail-header {
-    background: radial-gradient(ellipse at center, #ffffff 0%, rgb(251, 136, 4) 100%);
-    overflow: hidden;
-  }
+ 
