@@ -3,6 +3,7 @@
 body {
     font-family: 'Lato', sans-serif;
     text-align: center;
+    margin: 0;
 }
 
 footer {
@@ -68,11 +69,19 @@ p {
     content: "";
     background-image: url(../images/white-background.png);
     background-size: cover;
-    position: relative;
+   
     background-position: center center;
 }
 
-
+.white-bg {
+    position:relative;
+    ;
+    background-image: url(../images/white-background.png);
+    background-size: cover;
+    
+    background-position: 50% 50%;
+    
+}
 
 .main:after {
     position: relative;
@@ -129,7 +138,7 @@ hr.style18:before {
 }
 
 nav li {
-    font-family: 'Cinzel', serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .nav-link {
@@ -138,12 +147,35 @@ nav li {
 
 nav a {
 
-    font-family: 'Cinzel', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 nav a:hover{
     color: hsl(27, 100%, 63%) !important;
 }
+
+a {
+    position: relative;
+    text-decoration: none;
+    position: relative;
+    transition: color .4s ease-out;
+  }
+  nav a::after {
+      border-radius: 1em;
+      border-top: .1em solid #bb5c0e;
+      content: "";
+      position: absolute;
+        right: 100%;
+        bottom: .14em;
+        left: 0;
+      transition: right .4s cubic-bezier(0,.5,0,1);
+    }
+    
+  
+  nav a:hover::after {
+    right: 0;
+   
+  }
 
 .btn.btn-light {
     color: #bb5c0e !important;
@@ -154,10 +186,20 @@ nav a:hover{
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
+.align-left {
+    text-align: left;
+}
+
+.modal-link {
+    color: black;
+    text-decoration: underline;
+}
 .content-text {
-    
-    text-align: justify;
+    font-size: 1.5;
+    padding: 0 1em;
+    text-align: left;
     line-height: 1.8rem;
+    margin: 0;
 }
 
 .heading-text {
@@ -165,6 +207,10 @@ nav a:hover{
 }
 .buttons {
     margin-top: 2%;
+}
+
+.icon-container {
+    padding: 3% 15%;
 }
 
 .feature-header {
@@ -250,12 +296,71 @@ a:hover {
     text-align: center;
 }
 
-
-
-.container-fluid {
-    padding: 7% 15%;
+#tint-table.container-fluid>h1 {
+    color: white;
 }
 
+#bg.container-fluid.tint-animation.svg {
+    position: absolute;
+    display: block;
+    top: 0 ;
+    z-index: -1;
+  
+}
+.tint-text.column h1 {
+    text-align: center;
+    position: relative;
+    top: 15%
+}
+
+.tint-container {
+    padding: 3% 15%;
+}
+.tint-btn {
+    
+}
+.tint-text.column p {
+    line-break: ;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-75%);
+}
+.column p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    text-align: right;
+}
+.ui.raised.segment img {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+.header {
+    background-color: #bb5c0e;
+    color: #fffefc;
+    margin-top: 3%;
+    padding: 3%;
+}
+
+.container-fluid {
+ padding-top: 10%;
+}
+.detail-container {
+    padding: 10%;
+    width: 100%;
+    
+    
+}
+
+.triangle {
+    background-image: url("../images/trianglify.svg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 .logo-container {
     padding: 5% 15% 0% 15%;
 }
@@ -308,6 +413,11 @@ a:hover {
     padding-top: 5%;
 }
 
+#bg.tint-animation.svg {
+    background: radial-gradient(ellipse at center, #0e0e0e 0%, rgb(250, 151, 22) 100%);
+    overflow: hidden;
+}
+
 .svg {
     background: radial-gradient(ellipse at center, #fffefc 0%, rgb(136, 136, 136) 100%);
     overflow: hidden;
@@ -315,10 +425,15 @@ a:hover {
 
   #bg {
       position: absolute;
-      display: block;
+      display: inline-block;
       top: 0;
       bottom: 0;
       left: 0;
       z-index: -1;
     
+  }
+
+  .detail-header {
+    background: radial-gradient(ellipse at center, #ffffff 0%, rgb(251, 136, 4) 100%);
+    overflow: hidden;
   }
